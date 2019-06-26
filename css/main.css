@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+x/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -126,6 +126,9 @@ header,
 footer,
 main {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #div-1,
@@ -147,6 +150,10 @@ main {
 
 .flex-container {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .flex-items {
@@ -157,6 +164,9 @@ main {
   background-color: #f16059;
   width: 30%;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==========================================================================
